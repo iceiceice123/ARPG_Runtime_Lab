@@ -1,0 +1,33 @@
+# Build outputs
+build/
+out/
+bin/
+obj/
+
+# CMake
+CMakeUserPresets.json
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+
+# FetchContent cache
+.cache/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln
+*.vcxproj*
+.idea/
+
+# Benchmark / profiler artifacts
+*.json.bench
+*.etl
+*.trace
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
